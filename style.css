@@ -1,18 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 
 :root{
-    --russian-violet: #10002bff;
-    --russian-violet-2: #240046ff;
-    --persian-indigo: #3c096cff;
-    --tekhelet: #5a189aff;
-    --french-violet: #7b2cbfff;
-    --amethyst: #9d4eddff;
-    --heliotrope: #c77dffff;
-    --mauve: #e0aaffff;
-
+    --roxo-mais-escuro: #10002bff;
+    --roxo-mais-escuro2: #240046ff;
+    --roxo-mais-escuro3: #3c096cff;
+    --roxo-mais-escuro4: #5a189aff;
+    --roxo-mais-escuro5: #7b2cbfff;
+    --roxo-mais-escuro6: #9d4eddff;
+    --roxo-mais-escuro7: #c77dffff;
+    --fonte-titulo: "Radio Canada Big", sans-serif;
+    --fonte-texto: "Montserrat", sans-serif;
 }
+
+body{
+    background-color: var(--roxo-mais-escuro7);
+    color: var(--roxo-mais-escuro1)
+}
+
+
+.titulo-principal{
+    font-family: var(--roxo-mais-escuro7);
+}
+
